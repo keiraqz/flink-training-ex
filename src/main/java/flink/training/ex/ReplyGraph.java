@@ -61,8 +61,8 @@ public class ReplyGraph {
 		DataSet<Tuple2<String, String>> joinedMsg = replyRelationNew
 				.join(replyRelationNew).where(2) // where replied-to ID
 				.equalTo(0) // equal to messageID
-				.projectFirst(1) // get messageID and email from first dataset
-				.projectSecond(1); // get messageID and email from second dataset
+				.projectFirst(1) // get email from first dataset
+				.projectSecond(1); // get email from second dataset
 
 		
 		DataSet<Tuple3<String, String, Integer>> output = joinedMsg
