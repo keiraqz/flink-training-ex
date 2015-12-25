@@ -8,3 +8,8 @@ All my solutions are <a href="https://github.com/keiraqz/flink-training-ex/tree/
 
 - Description: <a href="http://dataartisans.github.io/flink-training/exercises/mailCount.html" target="_blank">Mail Count</a>
 - My solution: <a href="https://github.com/keiraqz/flink-training-ex/blob/master/src/main/java/flink/training/ex/FlinkMail.java" target="_blank">FlinkMail.java</a>
+
+## Exercise 2
+
+- Description: <a href="http://dataartisans.github.io/flink-training/exercises/replyGraph.html" target="_blank">Reply Graph</a>
+- My solution: <a href="https://github.com/keiraqz/flink-training-ex/blob/master/src/main/java/flink/training/ex/ReplyGraph.java" target="_blank">ReplyGraph.java</a>
