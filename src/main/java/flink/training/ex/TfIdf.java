@@ -33,7 +33,7 @@ import org.apache.flink.util.Collector;
 
 /**
  * Following Data Artisan Flink Training:
- * http://dataartisans.github.io/flink-training/exercises/mailData.html
+ * http://dataartisans.github.io/flink-training/exercises/tfIdf.html
  * <p>
  * tf-idf(t, d, D) = tf(t, d) * idf(t, D).
  *

@@ -27,7 +27,7 @@ import org.apache.flink.api.java.tuple.Tuple3;
 
 /**
  * Following Data Artisan Flink Training:
- * http://dataartisans.github.io/flink-training/exercises/mailData.html
+ * http://dataartisans.github.io/flink-training/exercises/mailCount.html
  *
  * @author Keira Zhou
  * @date 12/24/2015

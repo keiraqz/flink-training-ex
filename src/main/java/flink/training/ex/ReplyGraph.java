@@ -29,7 +29,7 @@ import org.apache.flink.util.Collector;
 
 /**
  * Following Data Artisan Flink Training:
- * http://dataartisans.github.io/flink-training/exercises/mailData.html
+ * http://dataartisans.github.io/flink-training/exercises/replyGraph.html
  *
  * @author Keira Zhou
  * @date 12/24/2015
