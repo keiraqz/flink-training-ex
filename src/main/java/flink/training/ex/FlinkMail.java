@@ -39,7 +39,7 @@ public class FlinkMail {
 		final ExecutionEnvironment env = ExecutionEnvironment
 				.getExecutionEnvironment();
 
-		// read sender and body fields
+		// read timestamp and sender fields
 		DataSet<Tuple2<String, String>> timestampSender = env
 				.readCsvFile("dataset/flinkMails.gz").lineDelimiter("##//##")
 				.fieldDelimiter("#|#").includeFields("011")
