@@ -1,6 +1,6 @@
 # Flink Training Exercises
 
-Flink Training Exercises from Data Artisan: http://dataartisans.github.io/flink-training/index.html
+My solutions to Flink Training Exercises from Data Artisan: http://dataartisans.github.io/flink-training/index.html.
 
 All my solutions are <a href="https://github.com/keiraqz/flink-training-ex/tree/master/src/main/java/flink/training/ex" target="_blank">here</a>.
 
