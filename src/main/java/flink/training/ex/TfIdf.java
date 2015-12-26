@@ -103,11 +103,9 @@ public class TfIdf {
 		TOTALMAIL = idBody.count();
 
 		// process mail body
-		DataSet<Tuple3<String, String, Integer>> idProcessedBody = idBody.map(
-				new MailProcessor()) // ignore the reply part of a mail which
-										// starts with ">"
-				.flatMap(new Tokenizer()); // tokenize mails and create a
-											// flatmap of mail content
+		DataSet<Tuple3<String, String, Integer>> idProcessedBody = idBody
+				.map(new MailProcessor()) // ignore the reply part of a mail which starts with ">"
+				.flatMap(new Tokenizer()); // tokenize mails and create a flatmap of mail content
 
 		// count TF within each mail
 		DataSet<Tuple3<String, String, Integer>> termFrequency = idProcessedBody
